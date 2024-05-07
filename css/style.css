@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+    color: white;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    /* debug */
+    background-color: black;
+}
+
+header{
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    /* debug */
+    background-color: blue;
+}
+
+main{
+    width: 90%;
+    max-height: 94%;
+    margin: auto;
+    padding: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px 5px;
+    overflow-y:scroll;
+    /* debug */
+    background-color: grey;
+}
+
+#contenitoreProfili{
+    height: 7rem;
+    width: 11.9rem;
+    /* debug */
+    background-color: red;
+    border: 1px solid white;
+}
+
+footer{
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    /* debug */
+    background-color: blue;
+
+}
