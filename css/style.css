@@ -94,19 +94,28 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .contPincipaleFoot .contOpzioni{
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 1rem;
+    
     text-align: center;
+}
 
+.pulsanteOpzione{
+    height: 100%;
+    padding: 0.5rem 0.2rem;
+    border-radius: 10px;
     
 }
 
+.pulsanteOpzione:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
 
 .contOpzioni i{
     font-size: 20px;
@@ -120,7 +129,17 @@ footer{
     font-size: 10px;
 }
 
-#endMeeting{
+.contPincipaleFoot.fine{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.contPincipaleFoot.fine:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer; 
+}
+
+.endMeeting{
     padding: 0.5rem;
+    color: red;
 }
 
