@@ -22,36 +22,51 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    /* debug */
-    background-color: blue;
+    background-color: black;
 }
 
 i{
     padding: 0 0.5rem;
 }
 
-
+/* inizio main part */
 main{
     width: 90%;
-    max-height: 94%;
+    max-height: 98%;
     margin: auto;
-    padding: 3rem 0;
+    padding: 4rem 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     gap: 10px 5px;
     overflow-y:scroll;
-    /* debug */
-    background-color: grey;
+    
 }
 
-#contenitoreProfili{
+.contenitoreProfili{
     height: 7rem;
     width: 11.9rem;
-    /* debug */
-    background-color: red;
-    border: 1px solid white;
+    position: relative;
+    
 }
+
+.contenitoreProfili img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.microphoneOff{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2px 4px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
 
 footer{
     height: 30px;
