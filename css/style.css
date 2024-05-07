@@ -13,14 +13,23 @@ body{
     background-color: black;
 }
 
+/* inizio header */
 header{
-    height: 30px;
+    height: 45px;
     width: 100%;
     position: fixed;
     z-index: 100;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     /* debug */
     background-color: blue;
 }
+
+i{
+    padding: 0 0.5rem;
+}
+
 
 main{
     width: 90%;
