@@ -38,8 +38,19 @@ main{
     display: flex;
     flex-wrap: wrap;
     gap: 10px 5px;
-    overflow-y:auto;
+    overflow-y:scroll;
     
+}
+
+/* hide scrollbar chrome */
+main::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+main {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
 }
 
 .contenitoreProfili{
@@ -74,19 +85,15 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* debug */
-    background-color: blue;
+    background-color: black;
 
 }
 
 .contPincipaleFoot{
     height: 100%;
-
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
 }
 
 .contPincipaleFoot .contOpzioni{
@@ -96,7 +103,10 @@ footer{
     align-items: center;
     padding: 1rem;
     text-align: center;
+
+    
 }
+
 
 .contOpzioni i{
     font-size: 20px;
