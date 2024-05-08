@@ -17,7 +17,6 @@ body{
 header{
     height: 45px;
     width: 100%;
-    position: fixed;
     z-index: 100;
     display: flex;
     justify-content: flex-end;
@@ -32,9 +31,9 @@ i{
 /* inizio main part */
 main{
     width: 90%;
-    max-height: 98%;
+    max-height: calc(100vh - 105px);
     margin: auto;
-    padding: 4rem 0;
+    padding: 1rem 0;
     display: flex;
     flex-wrap: wrap;
     gap: 10px 5px;
